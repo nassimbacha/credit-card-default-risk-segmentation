@@ -10,11 +10,11 @@ Exploratory analysis and risk segmentation on 30,000 credit card clients (UCI da
 - Compare clustering approaches to select the most reliable method
 
 ## Methodology
-1. **Data Preparation** — Missing values check, outlier detection (IQR), variable recoding
-2. **Univariate & Bivariate Analysis** — Distribution analysis, correlation matrix, PAY_0 vs default
-3. **Dimensionality Reduction** — PCA (10 components capturing 90% variance), AFC, MCA
-4. **Clustering** — K-Means (k=4) selected via elbow method + silhouette score
-5. **Model Comparison** — 3 approaches compared via radar chart (silhouette, Davies-Bouldin, cluster balance)
+1. **Data Preparation** - Missing values check, outlier detection (IQR), variable recoding
+2. **Univariate & Bivariate Analysis** - Distribution analysis, correlation matrix, PAY_0 vs default
+3. **Dimensionality Reduction** - PCA (10 components capturing 90% variance), AFC, MCA
+4. **Clustering** - K-Means (k=4) selected via elbow method + silhouette score
+5. **Model Comparison** - 3 approaches compared via radar chart (silhouette, Davies-Bouldin, cluster balance)
 
 ## Key Results
 - Identified a high-risk cluster with **62.6% default rate**
